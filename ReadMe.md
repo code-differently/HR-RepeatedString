@@ -1,12 +1,12 @@
 # Repeated String
 
 ## Problem
-There is a string, , of lowercase English letters that is repeated infinitely many times. Given an integer, , find and print the number of letter a's in the first  letters of the infinite string.
+There is a string, s, of lowercase English letters that is repeated infinitely many times. Given an integer, n , find and print the number of letter a's in the first  letters of the infinite string.
 
 ### Example
 
 
-The substring we consider is , the first  characters of the infinite string. There are  occurrences of a in the substring.
+The substring we consider is abcacabcac, the first 10 characters of the infinite string. There are 4 occurrences of a in the substring.
 
 ### Function Description
 
@@ -19,11 +19,12 @@ repeatedString has the following parameter(s):
 
 ### Returns
 
-int: the frequency of a in the substring
-Input Format
+* int: the frequency of a in the substring
 
-The first line contains a single string, .
-The second line contains an integer, .
+## Input Format
+
+The first line contains a single string,s .
+The second line contains an integer,n .
 
 ### Constraints
 
