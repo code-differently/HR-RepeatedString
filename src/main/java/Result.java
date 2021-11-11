@@ -10,7 +10,24 @@ public class Result {
 
     public long repeatedString(String s, long n) {
         // Write your code here
-        return 0;
+
+        long number = n/s.length();
+        long rem = n%s.length();
+        long answer = 0;
+
+            for (int i = 0; i <s.length(); i++) {
+                if (s.charAt(i) == 'a') ;
+                answer += number;
+                if (i < rem) {
+                    answer++;
+                }
+                else {
+                   return answer;
+                }
+            }
+
+
+        return answer;
     }
 
 }
